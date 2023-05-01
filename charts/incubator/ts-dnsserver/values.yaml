@@ -31,3 +31,6 @@ service:
 
 portal:
   enabled: true
+probeTimeouts:
+  startup:
+    failureThreshold: 360
